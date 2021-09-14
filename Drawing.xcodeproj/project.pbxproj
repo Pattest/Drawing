@@ -20,6 +20,8 @@
 		27B918B226F0928400BB8229 /* TrapezoidContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B918B126F0928400BB8229 /* TrapezoidContentView.swift */; };
 		27B918B426F0929700BB8229 /* CheckerboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B918B326F0929700BB8229 /* CheckerboardContentView.swift */; };
 		27B918B626F0960200BB8229 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 27B918B526F0960200BB8229 /* Readme.md */; };
+		27B918B826F0A9CB00BB8229 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B918B726F0A9CB00BB8229 /* Arrow.swift */; };
+		27B918BA26F0B2BF00BB8229 /* ColorCyclingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B918B926F0B2BF00BB8229 /* ColorCyclingRectangle.swift */; };
 		27CE984C26EFA271003016B6 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE984B26EFA271003016B6 /* DrawingApp.swift */; };
 		27CE984E26EFA271003016B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE984D26EFA271003016B6 /* ContentView.swift */; };
 		27CE985026EFA275003016B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CE984F26EFA275003016B6 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		27B918B126F0928400BB8229 /* TrapezoidContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidContentView.swift; sourceTree = "<group>"; };
 		27B918B326F0929700BB8229 /* CheckerboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardContentView.swift; sourceTree = "<group>"; };
 		27B918B526F0960200BB8229 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		27B918B726F0A9CB00BB8229 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		27B918B926F0B2BF00BB8229 /* ColorCyclingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangle.swift; sourceTree = "<group>"; };
 		27CE984826EFA271003016B6 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CE984B26EFA271003016B6 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		27CE984D26EFA271003016B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,8 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				27B918AB26F0923200BB8229 /* Arc.swift */,
+				27B918B726F0A9CB00BB8229 /* Arrow.swift */,
 				27B918A126F091BD00BB8229 /* Checkerboard.swift */,
 				27B918A526F091F500BB8229 /* ColorCyclingCircle.swift */,
+				27B918B926F0B2BF00BB8229 /* ColorCyclingRectangle.swift */,
 				27B918A726F0920D00BB8229 /* Flower.swift */,
 				27B9189B26F0915500BB8229 /* Spirograph.swift */,
 				27B918A326F091DF00BB8229 /* Trapezoid.swift */,
@@ -197,11 +203,13 @@
 				27B918AE26F0925300BB8229 /* FlowerContentView.swift in Sources */,
 				27CE984E26EFA271003016B6 /* ContentView.swift in Sources */,
 				27B918B226F0928400BB8229 /* TrapezoidContentView.swift in Sources */,
+				27B918BA26F0B2BF00BB8229 /* ColorCyclingRectangle.swift in Sources */,
 				27B918A626F091F500BB8229 /* ColorCyclingCircle.swift in Sources */,
 				27B918AC26F0923200BB8229 /* Arc.swift in Sources */,
 				27B918A226F091BD00BB8229 /* Checkerboard.swift in Sources */,
 				27B918B026F0926800BB8229 /* BlendModesContentView.swift in Sources */,
 				27B918B426F0929700BB8229 /* CheckerboardContentView.swift in Sources */,
+				27B918B826F0A9CB00BB8229 /* Arrow.swift in Sources */,
 				27B918AA26F0921F00BB8229 /* Triangle.swift in Sources */,
 				27B918A426F091DF00BB8229 /* Trapezoid.swift in Sources */,
 				27CE984C26EFA271003016B6 /* DrawingApp.swift in Sources */,

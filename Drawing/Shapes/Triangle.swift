@@ -5,7 +5,7 @@
 //  Created by Baptiste Cadoux on 14/09/2021.
 //
 
-import Foundation
+import SwiftUI
 
 struct Triangle: Shape {
     func path(in rect: CGRect) -> Path {

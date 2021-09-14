@@ -40,6 +40,7 @@ struct BlendModesContentView: View {
         .edgesIgnoringSafeArea(.all)
     }
 }
+
 struct BlendModesContentView_Previews: PreviewProvider {
     static var previews: some View {
         BlendModesContentView()
